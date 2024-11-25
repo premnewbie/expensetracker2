@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function AddItem({items,addItem,deleteItem}) {
+export default function AddItem({addItem}) {
 
     const [amount,setAmount] = useState(0);
     const [des,setDes] = useState('');
